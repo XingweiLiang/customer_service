@@ -1,0 +1,54 @@
+# Core data science and ML libraries
+pandas>=2.0.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.1.0
+
+# Data handling and processing
+pyarrow>=15.0.0
+datasets>=2.14.0
+transformers>=4.21.0
+evaluate>=0.4.0
+sentencepiece>=0.1.99
+
+# Language and text processing
+langdetect>=1.0.9
+openpyxl>=3.1.0
+
+# LLM and AI frameworks
+dspy-ai>=2.0.0
+instructor>=1.0.0
+
+# LLM API clients
+openai>=1.0.0
+anthropic>=0.25.0
+google-generativeai>=0.3.0
+google-api-core>=2.11.0
+
+# HTTP and networking
+requests>=2.31.0
+
+# Development and notebook environment
+jupyterlab>=4.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.0.0
+
+# Progress bars and utilities
+tqdm>=4.64.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Async support
+aiohttp>=3.8.0
+
+# Additional utilities that might be needed
+python-dotenv>=1.0.0
+typing-extensions>=4.7.0
+
+
+# # Or if using conda environment
+# conda create -n dspy-judge python=3.11
+# conda activate dspy-judge
+# pip install -r requirements.txt
